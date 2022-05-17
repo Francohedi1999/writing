@@ -10,13 +10,7 @@
 <body>
 	<div class="contenu_global">
 
-		<div id="navigation" class="navigation">
-			<?php $this->load->view("include/navbar");?>
-		</div>
-
-		<div class="topbar">
-			<?php $this->load->view("include/topbar");?>
-		</div>
+		
 
 		<div class="contenu">
 			<div class="p-2">
