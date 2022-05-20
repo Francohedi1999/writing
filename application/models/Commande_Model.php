@@ -340,7 +340,7 @@ class Commande_Model extends CI_MODEL
 				$sql = sprintf( $sql , $id_user , str_replace( "'" , "''" , $titre_commande) , $date_commande_1 , $date_commande_2 , $filtre , $start );
 			}
 		}
-		echo $sql;
+		// echo $sql;
 		$query = $this->db->query($sql);
 		$commandes = $query->result_array();
 		return $commandes;
