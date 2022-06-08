@@ -95,7 +95,7 @@
 												</div>
 
 												<a onclick="close_form_motif( 'livraison' )">
-													<img src="<?php echo site_url('assets/images/close_b.png')?>" alt="" width="20px" height="20px">
+													<i class="fa fa-angle-up">
 												</a>
 
 											</div>
